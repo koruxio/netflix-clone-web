@@ -10,7 +10,7 @@ body {
 }
 
 .main_header {
-  background-image: url("/images/background_image.jpg");
+  background-image: url("../images/background_image.jpg");
 }
 
 .main_header::after {
@@ -140,10 +140,6 @@ body {
 
 .tab1_image {
   padding-left: 200px;
-}
-
-.tab2 {
-  padding-left: ;
 }
 
 .tab2_text {
