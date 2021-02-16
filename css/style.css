@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  background-color: black;
+  min-width: 1000px;
+  height: auto;
+}
+
+.main_header {
+  background-image: url("/images/background_image.jpg");
+}
+
+.main_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.logo_header {
+  position: relative;
+  z-index: 2;
+}
+
+.signin_button {
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+  height: 35px;
+  width: 80px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: red;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.header_title {
+  position: relative;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 0.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 2;
+}
+
+.header_caption1 {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+}
+
+.header_caption2 {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  line-height: 0.5;
+  z-index: 2;
+}
+
+.enter_email {
+  position: relative;
+  text-align: center;
+  outline: none;
+  border: none;
+  z-index: 2;
+}
+
+.submit_button {
+  position: relative;
+  height: 53px;
+  width: 180px;
+  border: none;
+  color: white;
+  background-color: #d60303;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.submit_button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.line {
+  position: relative;
+  height: 10px;
+  background-color: #303030;
+  opacity: 65%;
+  margin-top: 0;
+  outline: none;
+  border: none;
+  z-index: 2;
+}
+
+.tabs {
+  position: relative;
+  z-index: 1;
+}
+
+.tabs::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.main_container {
+  position: relative;
+  z-index: 2;
+}
+
+.tab1 {
+  padding-left: 20%;
+}
+
+.tab1_text {
+  padding-top: 10%;
+  padding-left: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.tab1_image {
+  padding-left: 200px;
+}
+
+.tab2 {
+  padding-left: ;
+}
+
+.tab2_text {
+  padding-top: 10%;
+  padding-left: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.tab2_image {
+  padding-top: 10%;
+  padding-left: 42%;
+}
+
+.faq {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.collapsible_button {
+  width: 650px;
+  height: 65px;
+  background-color: #303030;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: start;
+  cursor: pointer;
+}
+
+.collapsible_button::after {
+  content: "+";
+  float: right;
+  padding-top: 3px;
+  padding-right: 10px;
+  scale: 3;
+  transform: rotate(90);
+}
+
+.collapsible_button--active {
+  background-color: #303030;
+}
+
+.collbutton_text {
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.content {
+  font-size: 25px;
+  overflow: hidden;
+  max-height: 0;
+  max-height: 0.2s;
+  padding: 0 15px;
+  background-color: #303030;
+}
+
+.contact {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #a4a4a4;
+}
+
+.bottom_list {
+  list-style: none;
+}
+
+.table-2 {
+  padding-left: 20px;
+}
+
+.contact-tables {
+  margin: 0 auto;
+}
